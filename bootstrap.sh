@@ -286,8 +286,7 @@ EOF
 	  inventory_base_uri: ${RECLASS_ROOT}
 	  ${IGNORE_CLASS_NOTFOUND}
 	  ${RECLASS_SOURCE_PATH}
-	ext_pillar:
-	  - reclass: *reclass
+
 	master_tops:
 	  reclass: *reclass
 EOF
